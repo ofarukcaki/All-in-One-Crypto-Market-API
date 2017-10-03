@@ -34,7 +34,7 @@ localhost:11644/api/**bitfinex**/**usd**
 
 Replace `bitfinex` with any other available market to see their datas.
 
-```JSON
+```javascript
 {
     "ask": "4278.5",
     "bid": "4278.4",
@@ -53,7 +53,7 @@ Replace `bitfinex` with any other available market to see their datas.
 localhost:11644/api/**bitfinex**/**ltcbtc**
 
 Replace `ltcbtc` with any other correct values, for example `/api/bitfinex/neobtc` will **not** work due to neo is not a correct call on bitfinex market.
-```JSON
+```javascript
 {
     "ask": "0.012076",
     "bid": "0.012069",
@@ -62,6 +62,7 @@ Replace `ltcbtc` with any other correct values, for example `/api/bitfinex/neobt
     "high": "0.012234",
     "low": "0.012004"
 }
+
 ```
 
 
@@ -71,7 +72,7 @@ Replace `ltcbtc` with any other correct values, for example `/api/bitfinex/neobt
 localhost:11644/api/**all**/**fiat**
 
 Returns **__BTC-FIAT__** datas in json. Markets with original pair different than `USD` will be returned in original currency, like as `btcturk` in this example. An extra `pair` is also returned with these type of markets.
-```JSON
+```javascript
 {
     "bitfinex": {
         "ask": "4283.4",
@@ -106,7 +107,9 @@ Returns **__BTC-FIAT__** datas in json. Markets with original pair different tha
         "low": "15100",
         "pair": "TRY"
     }
-}```
+}
+
+```
 
 
 
@@ -114,7 +117,7 @@ Returns **__BTC-FIAT__** datas in json. Markets with original pair different tha
 For the **USD** equations of all markets available in the API, use **__/api/all/usd__**
 
 localhost:11644/api/**all**/**usd**
-```JSON
+```javascript
 same as above example, but for btcturk, output will be:
 "btcturk": {
         "ask": "4248,6",
@@ -125,4 +128,5 @@ same as above example, but for btcturk, output will be:
         "low": "4213,7",
         "pair": "USD"
     }
+    
 ```
