@@ -59,7 +59,8 @@ Replace `ltcbtc` with any other correct values, for example `/api/bitfinex/neobt
     "volume": "65134.1915878",
     "high": "0.012234",
     "low": "0.012004"
-}```
+}
+```
 
 
 
