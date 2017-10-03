@@ -47,7 +47,7 @@ Replace `bitfinex` with any other available market to see their datas.
 ```
 
 
-
+___
 
 
 localhost:11644/api/**bitfinex**/**ltcbtc**
@@ -65,7 +65,7 @@ Replace `ltcbtc` with any other correct values, for example `/api/bitfinex/neobt
 
 ```
 
-
+___
 
 
 
@@ -111,7 +111,7 @@ Returns **__BTC-FIAT__** datas in json. Markets with original pair different tha
 
 ```
 
-
+___
 
 
 For the **USD** equations of all markets available in the API, use **__/api/all/usd__**
