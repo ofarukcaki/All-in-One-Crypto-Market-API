@@ -43,7 +43,10 @@ Replace `bitfinex` with any other available market to see their datas.
     "high": "4439.9",
     "low": "4210.1"
 }```
-___
+
+
+
+
 
 localhost:11644/api/**bitfinex**/**ltcbtc**
 
@@ -57,7 +60,10 @@ Replace `ltcbtc` with any other correct values, for example `/api/bitfinex/neobt
     "high": "0.012234",
     "low": "0.012004"
 }```
-___
+
+
+
+
 
 localhost:11644/api/**all**/**fiat**
 
@@ -98,7 +104,9 @@ Returns **__BTC-FIAT__** datas in json. Markets with original pair different tha
         "pair": "TRY"
     }
 }```
-___
+
+
+
 
 For the **USD** equations of all markets available in the API, use **__/api/all/usd__**
 
