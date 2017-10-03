@@ -34,7 +34,7 @@ localhost:11644/api/**bitfinex**/**usd**
 
 Replace `bitfinex` with any other available market to see their datas.
 
-```json
+```javascript
 {
     "ask": "4278.5",
     "bid": "4278.4",
