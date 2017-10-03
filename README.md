@@ -1,5 +1,5 @@
 #  All in one CryptoCurrency Market API
-------
+
 #### Collection of common crypto market APIs in single API in same format.  Written in `ASP.NET Core 2.0`
 
 Designed to get markets datas from different platforms at once with a single API, in same format for all various markets.
