@@ -1,0 +1,11 @@
+c:\users\omerf\onedrive\belgeler\visual studio 2017\Projects\crytoAPI\crytoAPI\bin\Debug\netcoreapp1.1\crytoAPI.deps.json
+c:\users\omerf\onedrive\belgeler\visual studio 2017\Projects\crytoAPI\crytoAPI\bin\Debug\netcoreapp1.1\crytoAPI.runtimeconfig.json
+c:\users\omerf\onedrive\belgeler\visual studio 2017\Projects\crytoAPI\crytoAPI\bin\Debug\netcoreapp1.1\crytoAPI.runtimeconfig.dev.json
+c:\users\omerf\onedrive\belgeler\visual studio 2017\Projects\crytoAPI\crytoAPI\bin\Debug\netcoreapp1.1\crytoAPI.dll
+c:\users\omerf\onedrive\belgeler\visual studio 2017\Projects\crytoAPI\crytoAPI\obj\Debug\netcoreapp1.1\crytoAPI.csprojResolveAssemblyReference.cache
+c:\users\omerf\onedrive\belgeler\visual studio 2017\Projects\crytoAPI\crytoAPI\obj\Debug\netcoreapp1.1\crytoAPI.AssemblyInfo.cs
+C:\Users\omerf\OneDrive\Belgeler\visual studio 2017\Projects\crytoAPI\crytoAPI\bin\Debug\netcoreapp1.1\crytoAPI.pdb
+C:\Users\omerf\OneDrive\Belgeler\visual studio 2017\Projects\crytoAPI\crytoAPI\obj\Debug\netcoreapp1.1\crytoAPI.dll
+C:\Users\omerf\OneDrive\Belgeler\visual studio 2017\Projects\crytoAPI\crytoAPI\obj\Debug\netcoreapp1.1\crytoAPI.pdb
+C:\Users\omerf\OneDrive\Belgeler\visual studio 2017\Projects\crytoAPI\crytoAPI\obj\Debug\netcoreapp1.1\crytoAPI.csproj.CoreCompileInputs.cache
+C:\Users\omerf\OneDrive\Belgeler\visual studio 2017\Projects\crytoAPI\crytoAPI\obj\Debug\netcoreapp1.1\crytoAPI.AssemblyInfoInputs.cache
