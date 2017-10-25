@@ -130,3 +130,20 @@ same as above example, but for btcturk, output will be:
     }
     
 ```
+
+### Steps to Deploy ASP.NET Core to IIS
+Before you deploy, you need to make sure that WebHostBuilder is configured properly to use Kestrel and IIS. Your web.config should also exist
+
+Step 1: Publish to a File Folder
+
+Step 2: Copy Files to Preferred IIS Location
+Now you need to copy your publish output to where you want the files to live. If you are deploying to a remote server, you may want to zip up the files and move to the server. If you are deploying to a local dev box, you can copy them locally.
+You will notice that with ASP.NET core there is no bin folder and it potentially copies over a ton of different .NET dlls. Your application may also be an EXE file if you are targeting the full .NET Framework.
+
+Step 3: Create Application in IIS
+First, create a new IIS Application Pool. You will want to create one under the .NET CLR version of “No Managed Code“. Since IIS only works as a reverse proxy, it isn’t actually executing any .NET code.
+
+Second, create your new application under your existing IIS Site, or create a new IIS site. Either way, you will want to pick your new IIS Application Pool and point it at the folder you copied your ASP.NET publish output files to.
+
+Step 4: Load Your App!
+At this point, your application should load just fine. If it does not, check the output logging from it. Within your web.config file you define how IIS starts up your ASP.NET Core process. Enable output logging by setting stdoutLogEnabled=true and you may also want to change the log output location as configured in stdoutLogFile.
