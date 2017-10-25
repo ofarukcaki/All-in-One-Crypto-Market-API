@@ -21,13 +21,13 @@
 ## How to debug the tool in Visual Studio 2017
 1. Set SoftVis.VisualStudioIntegration.Vs2017 as StartUp Project.
 1. SoftVis.VisualStudioIntegration.Vs2017 -> Project Properties -> Debug
-   * Start external program: C:\Program Files (x86)\Microsoft Visual Studio\2017\YourEdition\Common7\IDE\devenv.exe
-   * Command line arguments: /rootsuffix Exp
+   * Start external program: `C:\Program Files (x86)\Microsoft Visual Studio\2017\YourEdition\Common7\IDE\devenv.exe`
+   * Command line arguments: `/rootsuffix Exp`
 1. Run the Solution.
 
 ## How to debug the tool in Visual Studio 2015
 1. Set SoftVis.VisualStudioIntegration.Vs2015 as StartUp Project.
 1. SoftVis.VisualStudioIntegration.Vs2015 -> Project Properties -> Debug
-   * Start external program: C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe
-   * Command line arguments: /rootsuffix Exp
+   * Start external program: `C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe`
+   * Command line arguments: `/rootsuffix Exp`
 1. Run the Solution.
