@@ -2,6 +2,8 @@
 # How to Contribute
 
 
+|<img alt="Visual Studio 2017" src="https://www.microsoft.com/net/images/vslogo.png" width="200">|Visual Studio|
+|---|---|
 
 ## How to build the source
 1. Prerequisites
