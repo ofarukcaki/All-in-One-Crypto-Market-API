@@ -16,8 +16,9 @@ Since it is written in **.NET Core** you can deploy your app on Cloud using *__A
 
 **or**
 
-use hosted API by me over my personal website(__not yet sorry :/__).
+Use hosted API Endoint:
 
+http://crytoapi20171114122958.azurewebsites.net/api/
 
 | Available Markets | Pair |
 | ------------- | ---- |
